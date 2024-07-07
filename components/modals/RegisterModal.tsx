@@ -120,7 +120,7 @@ const RegisterModal = () => {
       onClose={() => dispatch(onRegisterModalClose())}
       onSubmit={handleSubmit(onSubmit)}
       body={bodyContent}
-      footer={footerContent}
+      // footer={footerContent}
     />
   );
 };

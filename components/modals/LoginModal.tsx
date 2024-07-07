@@ -114,7 +114,7 @@ const LoginModal = () => {
       onClose={() => dispatch(onLoginModalClose())}
       onSubmit={handleSubmit(onSubmit)}
       body={bodyContent}
-      footer={footerContent}
+      // footer={footerContent}
     />
   );
 };
